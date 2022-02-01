@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+      @media (min-width: 1200px){
+            .container {
+                max-width: 984px;}
+      }
+
+       /*   My fram work   */
+.header {
+    color: #4E5E5D;
+    font-size: 1.1rem;
+}
+.para { 
+    color: #9c8b8b;
+    font-size: 0.77rem;
+    font-weight: 500; 
+    }
+      /*End my fram work */
+body{
+    background-color: #4c4949;
+  }
+.cont{ overflow: hidden;}
+
+      /*styling the first section */
+
+.cont .first .header{
+    background-image: url('images/twitter-cover.jpg');
+    background-size: cover;
+    display: block;
+    text-align: center;
+    height:90vh;
+   }
+.first{overflow: hidden;}
+.first .header div:first-of-type{
+    color: honeydew;
+    font-size: 30px;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    width: fit-content;
+    margin: auto; /*Ive stopped here alot befot */
+    position: absolute;
+    top: 6em;
+    left:35%;
+}
+ @media (max-width:770px) {
+  .first .header div:first-of-type{
+    top: 3em;
+    left: 10%;
+  }
+ }
+.first button {
+    color: ivory;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 9px 19px;
+    border: 1.8px solid #fff;
+    margin-top: 25em;
+  }
+  .first nav {
+    display: block;
+    width: 100%;
+    background-color: #252F31;
+    height: 8vh;
+    color: #fff;
+  }
+  .first nav .container-navigation{
+    width: 100%;
+    display: block;
+    height: 8vh;
+    margin-left:6em;
+    margin-right: 4em;
+  }
+
+  .first nav p {
+    float: left;
+    width: 20%;
+    line-height: 2em;
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin-bottom: 0;
+  }
+  .first nav p span:first-of-type{
+    padding: 0px 11px 0.5px 13px;
+    background-color: #2C454E;
+  }
+  .first nav p span:last-of-type{color:#ce625d;}
+  .first nav ul {
+    list-style: none;
+    float: left;
+    width: 75%;
+    line-height: 3em;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .first nav ul li { 
+    display: inline;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-left: 1.3em;
+  }
+  .first nav ul li:hover {
+    color: #ce625d;
+    cursor: pointer;
+  }
+  .first .container  {
+    background-color: #fff;
+    padding-right: var(--bs-gutter-x,4.75rem);
+  }
+  @media (max-width:992px) {
+    .first nav{height: 18vh;}
+    .first nav .container-navigation{
+      margin-left:3em;
+      height: 18vh;
+    }
+    .first nav .container-navigation ul{margin-left: -1em;}
+    .first nav ul li { padding-left: 0em;}
+    .first nav p {margin: revert;}
+  }
+  @media (max-width:768px) {
+    .first nav p {margin: 0;}
+  }
+  .first .container .info{
+    margin: 0em 4.5em;
+    display: flex;
+    flex-direction: row;
+    width: 105%;
+  }
+  .first .info div {
+    margin: 2em 0em;
+  }
+    @media (min-width: 1200px) {
+      .first .info div {
+        width: 30.5%;
+      }
+    }
+  .first .info div h3 {
+    color: #4E5E5D;
+    font-size: 1.1rem;
+    margin-bottom: 1.1em;
+  }
+  .first .info div p { 
+    color: #9c8b8b;
+    font-size: 0.77rem;
+    width: 84%;
+    font-weight: 500;
+  }
+
+        /* End Editing the first section */
+
+       /* Start Editing the second section */ 
+
+  .second{ 
+    background-color: #F2F2F2;
+    overflow: hidden;
+  }
+  .second img{
+    width: 40%;
+    float: left;
+    height: 31em;
+  }
+     @media (max-width:990px) {
+       .second img {display: none;}
+       .second .cont {    
+          float: left;
+          background-color: #F2F2F2;
+          height: 31em;
+          width: 100%;
+        }
+     }
+  .second .cont {
+    width: 60%;
+    float: left;
+    background-color: #F2F2F2;
+    height: 31em;
+  }
+  @media (max-width:900px) {
+    .second .cont{
+      width: 100%;
+      margin-left: -1.5em;
+    }
+  }
+  .second .cont .about-me {
+    width: 73%;
+    margin-left: 4em;
+    margin-top: 4em;
+  }
+  .second  h2 {
+    color: #4E5E5D;
+    font-size: 1.1rem;
+    display: inline-block;
+  }
+  .second p{
+    color: #9c8b8b;
+    font-size: 0.77rem;
+    font-weight: 500;
+  }
+  .second .cont .contents{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3.3em;
+    flex-wrap: wrap;
+  }
+  .second .cont .contents div {
+    width: 50%;
+    margin-top: 1.5em;
+  }
+  .second .cont .contents div i{
+    color:#ce625d;
+    display: inline;
+    font-size: 1.4rem;
+    padding-right: 0.5em;
+}
+          /*End the second section */
+
+          /*start styling the third section */
+
+  .third{
+    background-color: #fff;
+  }
+  .third .row {
+    padding-top: 4em;
+    margin-left: 4em;
+    padding-bottom: 3em;
+  }
+  .third .row .my-skills h2 {
+    color: #4E5E5D;
+    font-size: 1.1rem;
+    margin-bottom: 1.3em;
+  }
+  .third .row .my-skills p{
+    color: #9c8b8b;
+    font-size: 0.77rem;
+    font-weight: 500; 
+  }
+  .third .row .my-skills button {
+    color: #CE625D;
+    border: 1px solid #CE625D;
+    background: transparent;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 0.5em 1.2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .third .row .skill-diagrams{margin-top: 1em;}
+      @media (min-width: 992px){
+      .third .row .skill-diagrams {
+          width: 48%;
+        }
+      }
+  .third .row .skill-diagrams>div{
+    margin-bottom: 1em;
+  }
+  .third .row .skill-diagrams>div p { 
+    color: #4E5E5D;
+    font-size: 1rem;
+    font-weight: 600; 
+    margin-bottom: 0;
+  } 
+  .third .row .skill-diagrams>div div {
+    width: 100%;
+    background-color: #F2F2F2;
+    color: #fff;
+    text-align: right;
+    height: 1.3em;
+    font-size: 0.9rem;
+    line-height: 1.3em;
+  }
+  .third .row .skill-diagrams>div div span {
+    display: block;
+    background-color: #CE625D;
+    height: 1.3em;
+  }
+  .third .row .skill-diagrams span:first-of-type{width: 90%;}
+  .third .row .skill-diagrams span:nth-of-type(2){width: 80% ;}
+  .third .row .skill-diagrams span:nth-of-type(3){width: 90%;}
+  .third .row .skill-diagrams span:last-of-type{width:70%}
+
+
+       /*Start editing the forth section*/ 
+  .forth{ 
+    background-color: #F2F2F2;
+    justify-items: center;
+    display: grid;
+    padding: 3em 2em 1em 2em;
+    z-index:1;
+  }
+  .forth h2{
+    color: #4E5E5D;
+    font-size: 1.1rem;
+  }
+  .forth p{
+    color: #9c8b8b;
+    font-size: 0.77rem;
+    font-weight: 500; 
+    text-align: center;
+  }
+  .forth button{
+    color: #CE625D;
+    border: 1px solid #CE625D;
+    background: transparent;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 0.5em 1.2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+  }
+  .extra{
+    background-color: #F2F2F2;
+    width: 57px;
+    height: 57px;
+    margin: -2px auto 0px auto;
+    transform: rotate(45deg);
+    position: relative;
+    top: -50px;
+    z-index: -1;
+    cursor: pointer;
+  }
+
+    /*End styling forth section*/ 
+
+    /* Start the fifth section */
+
+  .fifth{
+  margin-top: -60px;
+  z-index:-3;
+  position: relative;
+  }
+  .fifth , .sixth{
+    background-color: #FFFFFF;
+   
+  }
+  .fifth .container {
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 4em;
+  }
+  .fifth .work  h2 {
+    color: #4E5E5D;
+    font-size: 1.1rem;
+  }
+  .work,.divs,.my-edu p{
+    color: #9c8b8b;
+    font-size: 0.77rem;
+    font-weight: 500; 
+  }
+  .work p ,.my-edu p{margin-top: 3em !important;}
+  .fifth .divs h3 {
+    color: #4E5E5D;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .fifth button {
+    color: #fff;
+    background-color: #CE625D;
+    font-size: 0.7rem;
+    border: none;
+    width: 4.5em;
+    height: 2em;
+  }
+  .fifth .divs {
+    padding-top: 5em;
+   }
+  .fifth hr{width: 96%;}
+    /* End the fifth section */
+
+    /*Start sixth section*/
+
+  .sixth .container {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  .sixth .my-edu  h2 {
+    color: #4E5E5D;
+    font-size: 1.1rem;
+  }
+  .sixth .divs h3 {
+    color: #4E5E5D;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .sixth button {
+    color: #fff;
+    background-color: #CE625D;
+    font-size: 0.7rem;
+    border: none;
+    width: 4.5em;
+    height: 2em;
+  }
+    .sixth .divs {
+    padding-top: 5em;
+    }
+
+    /*End sixth section*/
+
+    /* Start the seventh section */
+    .seventh{
+      background-color: #F2F2F2;
+      height: 42vh;
+    }
+    .seventh .container {
+      height: 42vh;
+      padding-left: 6em;
+      padding-right:6em;
+    }
+    @media (max-width:700px) {
+      .seventh{
+        height: 60vh;
+      }
+      .seventh .container {
+        height: 60vh;
+      }
+    }
+    .seventh p {
+      color: #9c8b8b;
+      font-weight: 500; 
+      font-style: italic;
+      font-size: 0.9rem;
+    }
+    .seventh h4 {
+      color: #4E5E5D;
+      font-size: 0.8rem;
+      font-weight: 700;
+}
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  .text {
+    color: #161212;
+    font-size: 15px;
+    padding: 46px 12px 0px 12px;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  .dot {
+    cursor: pointer;
+    height: 8px;
+    width: 7px;
+    margin: 0 2px;
+    background-color: transparent;
+    border: 1px solid #CE625D;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {background-color: #CE625D;}
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+    /* End the seventh section */
+
+    /* Start the eight section */
+
+  .portfolio{
+  background-color: #fff;
+  padding-bottom: 2em;
+  }
+  .portfolio .container{
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+  .portfolio .container .para{
+    text-align: center;
+    padding: 5em 2em 0em 2em;
+  }
+  .portfolio .container .para h2{
+    color: #4E5E5D;
+    font-size: 1.1rem;
+  }
+  .portfolio .container .para p{
+    color: #9c8b8b;
+    font-size: 0.77rem;
+    font-weight: 500; 
+  }
+  .portfolio .img-container {
+    margin: 4em auto;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  @media (max-width:774px) {.portfolio .img-container{display: none;}}
+  .portfolio .img-container img {
+    width: 14em;
+    height: 14em;
+    margin-bottom: 1.5em;
+  }
+
+    /* End the eight section */
+
+    /* Start contCT ME SECTION */
+
+  .contact-me{background-color: #252F31;}
+  .contact-me .container {
+    padding-left: 6em;
+    padding-right: 6em;
+  }
+  .contact-me .container .line {padding: 3em 0em;}
+  .contact-me .contact-me-squar h2{
+    color: #fff;
+    font-size: 1.1rem;
+  }
+  .contact-me .contact-me-squar p{
+    color: #948a8a;
+    font-size: 0.77rem;
+  }
+  .contact-me .contact-me-squar p:first-of-type {margin-top: 2em;}
+  .contact-me .contact-me-squar p span{
+    color: #fff;
+    margin-right: 1.5em;
+  }
+  .contact-me .inputs {
+    color: #fff;
+    font-size: 0.7rem;
+    padding-top: 2em;
+  }
+  .contact-me .inputs label {margin-bottom: 1em;}
+  .contact-me .inputs label::after {                          /*new feature */
+      content:" *";
+      color: white;
+  }
+  .contact-me .inputs input {
+    outline: none;
+    color: #fff;
+    background-color: #4B5557;
+    border: none ;
+    display: block;
+    width: 90%;
+    height: 2.7em;
+    margin-bottom: 2em;
+  }
+  .contact-me .inputs textarea  {
+    height: 12em;
+    outline: none;
+    color: #fff;
+    background-color: #4B5557;
+    border: none ;
+    display: block;
+    width: 90%;
+    margin-bottom: 2em;
+    resize: none;                                   /*new feature*/
+  }
+  .contact-me .inputs #tarea-label::after{content: " ";}
+  .contact-me .inputs button{
+    background-color: #191E22;
+    width: 30%;
+    font-weight: 500;
+    outline: none;
+    color: #fff;
+    border: none ;
+    display: block;
+    height: 3em;
+    margin-bottom: 2em;
+  }
+    /* End contCT ME SECTION */
+
+    /* Start Footer */ 
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    background-color: #191E22;
+  }
+  footer p {
+    text-align: center;
+    color: #9c8b8b;
+    font-size: 0.63em;
+    font-weight: 500;
+    margin: 3em;
+  }
+  footer .icons div {
+    background-color: #4A5557;
+    border-radius: 50%;
+    width: 20px;
+    display: inline;
+    padding: 2px 4px;
+    margin: 0px 2px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  footer.icons {padding-bottom: 3em;}
+  footer .icons i:hover{
+    color: #fff;
+    transition: ease 0.88s;
+  }
+    /* End Footer */
